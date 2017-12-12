@@ -14,6 +14,7 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<div>
+				<div className="message">This is a forum dedicated to sharing bird photos and talking about them! </div>
 				{this.props.isLoading ?
 					<Spinner /> :
 					<div>

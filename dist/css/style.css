@@ -20,6 +20,10 @@ body {
 	color: #9842f4;
 }
 
+.message {
+  text-align:center;
+}
+
 input[type=submit] {
 	font-size: 10pt;
     border-radius: 5px;
