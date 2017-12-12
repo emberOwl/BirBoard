@@ -6,7 +6,7 @@ export default class CommentContainer extends React.Component {
 	render() {
 		const { commentList } = this.props;
 		return (
-			<div className="row">
+			<div className="comment">
 				{commentList.map(comment => <Comment id={comment.key} {...comment} />)}
 			</div>
 		);

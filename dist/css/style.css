@@ -13,6 +13,38 @@ body {
 	border-color: #7587E8;
 }
 
+.comment {
+	text-align: center;
+	font-size: 14pt;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #9842f4;
+}
+
+input[type=submit] {
+	font-size: 10pt;
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height:25px;
+    font-family: Tahoma;
+    background: #7587E8;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #7587E8 1%, #ededed 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f4f4f4), color-stop(100%, #ededed));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7587E8 1%, #ededed 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7587E8 1%, #ededed 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7587E8 1%, #ededed 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #7587E8 1%, #ededed 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7587E8', endColorstr='#ededed', GradientType=0);
+    /* IE6-9 */
+}
+
 a {
 	color: #DFF0FF;
 }

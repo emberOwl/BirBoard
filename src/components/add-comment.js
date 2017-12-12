@@ -19,10 +19,12 @@ export class AddComment extends React.Component {
   
   render() {
     return (
-      <div>
+      <div className="comment">
+        <h1> Add your comment here! </h1>
         <form>
-          <input type="text" className="commentText" />
-          <input type="submit" onClick={() => this.getCommentValue()} /> Submit
+          <label>Comment: </label><input type="text" className="commentText" />
+          <br/>
+          <input type="submit" value="Comment!" onClick={() => this.getCommentValue()} />
         </form>
       </div>
     );
